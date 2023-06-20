@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+  }
+  
+  .marker {
+    width: 25%;
+    height: 40px;
+    margin: 20px auto;
+  }
+  
+  .cap {
+    width: 25%;
+    height: 40px;
+  }
+  
+  .sleeve {
+    width: 65%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+  }
+  
+  .cap, .sleeve {
+    display: inline-block;
+  }
+  
+  .red {
+    background:linear-gradient(rgba(255, 0, 0,1),rgba(255, 0, 0,0.5),rgba(255, 0, 0,1));
+    box-shadow: 0 0 30px black;
+  }
+  
+  .green {
+    background: linear-gradient(rgb(60, 206, 2,1),rgb(72, 255, 0,0.5),rgb(72, 255, 0,1));
+    box-shadow: 0 0 30px black;
+  }
+  
+  .blue {
+    background: linear-gradient(rgba(31, 4, 150,1),rgba(31, 4, 150,0.5),rgba(31, 4, 150,1));
+    box-shadow: 0 0 30px black;
+  }
